@@ -1,0 +1,5 @@
+# ignore the test.py file
+test.*
+
+# ignore the *.pyc file
+*.pyc
