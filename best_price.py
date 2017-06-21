@@ -64,7 +64,7 @@ def best_price_from_igxe():
                     igxe_cookies = cookies_and_headers['igxe']['cookies']
                     r = requests.get(igxe_url, params=this_igxe_params, headers=igxe_headers, cookies=igxe_cookies, timeout=5, verify=False)
                 except:
-                    print 'Error when fetch {0} with price {1}, skip...'.format(k.encode('utf8'), csgo_price[k])
+                    print 'Error when fetch {0} with price {1}, skip...'.format(k.encode('cp936'), csgo_price[k])
                     time.sleep(10*random.random())
                 soup = BeautifulSoup(r.text, 'html.parser')
                 item = soup.find('div', {'class':'mod-hotEquipment-bd'})
@@ -73,9 +73,10 @@ def best_price_from_igxe():
                     total_success = total_success + 1
                     for indx in range(len(csgo_dotamax_limit[0])):
                         if v > csgo_dotamax_limit[0][indx] and first_price / v < csgo_dotamax_limit[1][indx]:
-                            print k, v, first_price, 'dotamax ratio:', first_price / v
+                            print k.encode('cp936'), v, first_price, 'dotamax ratio:', first_price / v
                         break
                 break
+    print 'total items:', len(csgo_price), '; total success:', total_success, '; percentage: ', 1.*(len(csgo_price)-total_success)/len(csgo_price)	
 
 if __name__ == "__main__":
     best_price_from_igxe()
