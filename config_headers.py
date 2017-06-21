@@ -51,7 +51,7 @@ headers_c5game = {
     }
 
 # IGXE
-cookies_igxe_str = '__cfduid=d8b057d45fc899191d106f70da38cc9ff1482458512; _qddaz=QD.8dfysz.ml4jin.ix1iazo1; looyu_id=e547dcb1d44fc2b9a1c94b52064ff7f00d_35810%3A4; c_is_menu_old=2; aliyungf_tc=AQAAALKC0DBS+gQAwNv2d3YHsJT/hdz9; csrftoken=dWOVJd5vAoXNQtIU4Hye2CZh2stxAb5O; _ga=GA1.2.1091404023.1482458513; _gid=GA1.2.277971558.1497257650; Hm_lvt_fe0238ac0617c14d9763a2776288b64b=1497060321,1497065089,1497092678,1497257651; Hm_lpvt_fe0238ac0617c14d9763a2776288b64b=1497260582; sessionid=5abg2nd7zzh6ymnqjos3apa79r8p6jfc'
+cookies_igxe_str = '__cfduid=d320768bc2f7e1315897dbdf23a05f40c1484723389; looyu_id=60ef2b6cbeb6965449c029602fe70d41d7_35810%3A5; _qddaz=QD.ftqncl.kxkxs7.j1buqh1c; c_is_menu_new=2; c_is_menu_old=2; aliyungf_tc=AQAAAEM0Igxl+AEAjhRZj5TpVWYSaMXz; _gat=1; csrftoken=OkTFdHP6XvWTUBNwjnCIf5LA9M0XMxtF; sessionid=1t8qf22gjrn0rsysjyvgqb8uz8mnu1jt; _ga=GA1.2.101241756.1484723395; _gid=GA1.2.1235071192.1497761140; Hm_lvt_fe0238ac0617c14d9763a2776288b64b=1497934890,1498027895,1498027901,1498027910; Hm_lpvt_fe0238ac0617c14d9763a2776288b64b=1498027912'
 headers_igxe = {
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate, sdch',
