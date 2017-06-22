@@ -11,7 +11,6 @@ Currently support fetch price from [c5game.com](http://www.c5game.com) and [igxe
 1. CSGO Items: Retrieve price from IGXE.
 2. DOTA Items: Retrieve price from IGXE.
 
-## 安装
 ## Installation
 1. Install Python 2.7 (https://www.python.org/downloads/) Choose Version 2.7.x (2.7.13)
 
