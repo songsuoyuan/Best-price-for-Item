@@ -1,4 +1,4 @@
-# 饰品值得买：花最少的钱，买最划算的菠菜！
+# 饰品值得买：花最少的钱，买最划算的饰品！
 # Best Price for Skin: Use less money, buy best betting items!
 
 This is a project which help people spend their limited money to buy state-of-art cheap csgo/dota items for betting.
